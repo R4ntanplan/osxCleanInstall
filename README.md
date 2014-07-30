@@ -76,7 +76,13 @@ h4. via @wget@
 	ln -sfv ~/.oh-my-zsh/custom/zshenv .zshenv
 	ln -sfv ~/.oh-my-zsh/custom/zshrc .zshrc
 	chsh -s /bin/zsh
-	
+
+@TODO clone my own with plugins 
+I use ZSH instead of the legacy bash shell. To do so :
+	git clone https://github.com/madsgraphics/oh-my-zsh.git ~/.oh-my-zsh
+	ln -sfv ~/.oh-my-zsh/custom/zshenv .zshenv
+	ln -sfv ~/.oh-my-zsh/custom/zshrc .zshrc
+	chsh -s /bin/zsh	
 ### Pow
 
 Pow is a tools that combines a local host names resolver (based on the `.dev` tld) and a rack server for ruby (and others) apps.
